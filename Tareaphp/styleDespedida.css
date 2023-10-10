@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Encabezados */
+h1, h2 {
+    text-align: center;
+    color: cadetblue;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Sombra semi-transparente */
+}
+
+/* Datos del formulario */
+h3 {
+    color: cadetblue;
+    margin-bottom: 10px;
+}
+
+/* Enlace de inicio */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: teal;
+}
